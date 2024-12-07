@@ -1,0 +1,91 @@
+# Xcode
+DerivedData/
+*.xcuserdatad/
+*.xcuserdata/
+*.xcworkspace/
+*.xcodeproj/project.xcworkspace/
+!*.xcodeproj/project.xcworkspace/contents.xcworkspacedata
+!*.xcodeproj/project.xcworkspace/xcshareddata/
+
+# Build artifacts
+build/
+Build/
+*.o
+*.so
+*.dylib
+*.a
+*.ll
+
+# Swift Package Manager
+/.build/
+/.swiftpm/
+
+# CocoaPods
+Pods/
+/Podfile.lock
+
+# Carthage
+Carthage/Build/
+/Carthage/Checkouts/
+
+# Fastlane
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots
+fastlane/test_output
+*.lock
+
+# Flutter/Dart
+.flutter-plugins
+.flutter-plugins-dependencies
+.dart_tool/
+.packages
+.flutter-plugins
+.flutter-plugins-dependencies
+Generated.xcconfig
+
+# Xcode automatically generated files
+*.moved-aside
+*.swp
+*.xcuserstate
+
+# Playgrounds
+timeline.xctimeline
+playground.xcworkspace
+
+# App-specific files
+*.ipa
+*.app
+*.dSYM.zip
+*.dSYM
+
+# Environment variables
+.env
+.env.*
+
+# Debug logs
+*.log
+
+# Other
+.DS_Store
+*.orig
+*.mode1v3
+*.mode2v3
+*.perspectivev3
+*.pbxuser
+*.perspectivev3
+*.xccheckout
+
+# Localization
+*.strings
+
+# Temporary and backup files
+*~
+*.bak
+*.tmp
+*.temp
+*.swp
+
+# Generated metadata
+*.xccheckout
+*.xcscmblueprint
